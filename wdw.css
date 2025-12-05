@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.title {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #cddcc3; /* 🌿 soft sage green */
+    padding: 25px;
+    width: 260px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.price span {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.features li {
+    margin: 8px 0;
+    color: #333;
+}
+
+.features .no {
+    color: red;
+}
+
+.btn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #ff3333;
+}
